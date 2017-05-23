@@ -1,8 +1,8 @@
 tag	citation
 Abe	doi:10.1101/gr.634603
-Abramoff2016_dr	doi:10.1016/j.procs.2016.07.014
+Abramoff2016_dr	doi:10.1167/iovs.16-19964
 Agarwal2015_targetscan	doi:10.7554/eLife.05005
-Alipanahi2015_predicting	doi:10.1038/nmeth.3547
+Alipanahi2015_predicting	doi:10.1038/nbt.3300
 AltaeTran2016_one_shot	doi:10.1021/acscentsci.6b00367
 Amit2017_breast_mri	doi:10.1117/12.2249981
 Asgari	doi:10.1371/journal.pone.0141287
@@ -42,7 +42,7 @@ Chryssolouris1996_confidence	doi:10.1109/72.478409
 Ciresan2013_mitosis	doi:10.1007/978-3-642-40763-5_51
 Coates2013_cots_hpc	url:http://www.jmlr.org/proceedings/papers/v28/coates13.html
 Codella2016_ensemble_melanoma	arxiv:1610.04662
-Consortium2004_encode	doi:10.1126/science.1105136
+Consortium2012_encode	doi:10.1038/nature11247
 CudNN	arxiv:1410.0759
 Dahl2014_multi_qsar	arxiv:1406.1231
 Dean2012_nips_downpour	url:http://research.google.com/archive/large_deep_networks_nips2012.html
@@ -104,6 +104,7 @@ JuanMateu2016_t1d	doi:10.1530/EJE-15-0916
 Kahng2017_activis	arxiv:1704.01942
 Karlin	doi:10.1128/jb.179.12.3899-3913.1997
 Karpathy2015_visualizing	arxiv:1506.02078
+Katzman2016_deepsurv	arxiv:1606.00931
 Kearnes2016_admet	arxiv:1606.08793
 Kearnes2016_graph_conv	doi:10.1007/s10822-016-9938-8
 Kelley2016_basset	doi:10.1101/gr.200535.115
@@ -180,6 +181,7 @@ Ragoza2016_protein	arxiv:1612.02751
 RAD2010_view_cc	doi:10.1145/1721654.1721672
 Rajkomar2017_radiographs	doi:10.1007/s10278-016-9914-9
 Ramsundar2015_multitask_drug	arxiv:1502.02072
+Ranganath2016_deep	arxiv:1608.02158
 Raina2009_gpu	doi:10.1145/1553374.1553486
 Ribeiro2016_lime	arxiv:1602.04938
 Rogers2010_fingerprints	doi:10.1021/ci100050t
@@ -201,7 +203,6 @@ Shaham2016_batch_effects	arxiv:1610.04181
 Shapely	doi:10.1515/9781400881970-018
 Shen2017_medimg_review	doi:10.1146/annurev-bioeng-071516-044442
 Shin2016_cad_tl	doi:10.1109/TMI.2016.2528162
-Shrikumar2016_blackbox	arxiv:1605.01713
 Shrikumar2017_learning	arxiv:1704.02685
 Shrikumar2017_reversecomplement	doi:10.1101/103663
 Simonyan2013_deep	arxiv:1312.6034
