@@ -23,15 +23,25 @@ algorithms have produced comparable or higher accuracy than previous
 best-in-class methods that required years of extensive customization, and
 specialized implementations are now being used at industrial scales.
 
-These methods are powered by improvements to artificial neural networks, an idea
-that was first proposed in 1943 [@doi:10.1007/BF02478259] as a model for how our
-brains process information. Since then, interest in neural networks as
-computational models has waxed and waned over time. This history is interesting
-in its own right [@doi:10.1103/RevModPhys.34.135]. In recent years, attention
-has shifted back to neural networks as hardware improvements have allowed the
-techniques that have come to be known as deep learning to surpass other machine
-learning algorithms. `TODO: add what is/isn't deep learning to this paragraph?
-Revise paragraph to also fix lengthy closing sentence. Issue #421`
+Neural networks were first proposed in 1943 [@doi:10.1007/BF02478259] as a model
+for how our brains process information. The history of neural networks is
+interesting in its own right [@doi:10.1103/RevModPhys.34.135]. In neural
+networks, inputs are fed into a hidden layer, which feeds into one or more
+hidden layers, which eventually produce an output layer. The neural networks
+used for deep learning have multiple hidden layers. Each layer essentially
+performs feature construction for the layers before it. The training process
+used often allows layers deeper in the network to contribute to the refinement
+of earlier layers. For this reason, these algorithms can automatically engineer
+features that are suitable for many tasks and customize those features for one
+or more specific tasks. Deep learning does many of the same things as more
+familiar approaches. Like a clustering algorithm, it can build features that
+describe recurrent patterns in data. Like a regression approach, deep learning
+methods can predict some output. However, deep learning methods combine both of
+these steps. When sufficient data are available, these methods construct
+features tuned to a specific problem and combine those features into a
+predictor. Recently, hardware improvements and very
+large training datasets have allowed these deep learning techniques to surpass
+other machine learning algorithms for many problems.
 
 Neural networks are most widely associated with supervised machine learning,
 where the goal is to accurately predict one or more labels associated with each
@@ -108,14 +118,14 @@ disease subtypes. In oncology, current "gold standard" approaches include
 histology, which requires interpretation by experts, or assessment of molecular
 markers such as cell surface receptors or gene expression. One example is the
 PAM50 approach to classifying breast cancer where the expression of 50 marker
-genes divides breast cancer patients into four subtypes. Significant
+genes divides breast cancer patients into four subtypes. Substantial
 heterogeneity still remains within these four subtypes
 [@doi:10.1200/JCO.2008.18.1370 @doi:10.1158/1078-0432.CCR-13-0583]. Given the
 increasing wealth of molecular data available, a more comprehensive subtyping
 seems possible. Several studies have used deep learning methods to better
-categorize breast cancer patients: denoising autoencoders (DA), an unsupervised
+categorize breast cancer patients: denoising autoencoders, an unsupervised
 approach, can be used to cluster breast cancer patients
-[@doi:10.1142/9789814644730_0014], and convolutional neural networks (CNN) can
+[@doi:10.1142/9789814644730_0014], and convolutional neural networks (CNNs) can
 help count mitotic divisions, a feature that is highly correlated with disease
 outcome in histological images [@doi:10.1007/978-3-642-40763-5_51]. Despite
 these recent advances, a number of challenges exist in this area of research,
